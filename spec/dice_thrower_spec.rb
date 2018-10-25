@@ -6,21 +6,24 @@ describe 'throw_dice' do
   end
 
   it 'it returns a number between 1 and 6' do
-    expect(test_method).to be_between(1,6)
+    expect(throw_dice).to be_between(1,6)
   end
 end
 
 describe 'generate_set' do
   it 'has a generate_set method' do
-    expect { generate_set }.not_to raise_error
+    expect { generate_set(10) }.not_to raise_error
   end
 
-  it 'can be used to confirm if a method returns expected results in required relative' do
-    expect(generate_set).to eq('bears') # equal(): strict comparison, eq(): value comparison
+  it 'returns an array of each roll' do
+    expect(generate_set(10)).to be_kind_of(Array)
   end
 
-  it 'can check types' do
-    expect(generate_set).to be_kind_of(Array)
+  it 'logs each result to an array' do
+    rolls = 10
+    set = [2, 3, 5, 1, 2, 4, 2, 1, 2, 4]
+    expect(set).to eq([2, 3, 5, 1, 2, 4, 2, 1, 2, 4])
+    expect(set.count).to eq(rolls)
   end
 end
 

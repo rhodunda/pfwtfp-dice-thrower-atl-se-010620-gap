@@ -3,5 +3,9 @@ def throw_dice
 end
 
 def generate_set(number_of_throws)
-  Array.new(number_of_throws, throw_dice)
+  array = Array.new
+  number_of_throws.times do
+    array << throw_dice
+  end
+  array
 end

@@ -29,6 +29,11 @@ method will return the stored results in an array.
 
 ## Conclusion
 
+Now you've completed a basic Ruby program! This code will give you room to make
+modifications, and build out various new methods. When writing code, it's generally
+better to split big methods into lots of smaller ones. Here, we have a method the
+rolls the dice seperately from a method that keeps track of the results.
+
 ## Resources
 
 - [Random]

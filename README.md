@@ -11,7 +11,7 @@ In this lesson, we're going to build the beginning of a dice game. We're going
 to be writing this in a _procedural_ style. You shouldn't be thinking about
 `class` definitions or any of that stuff. Just write methods.
 
-- Reiterate the purpose: practicing our skills in enumerables and arrays
+Our focus should be practicing our skills in `Enumerable`s and `Array`s
 
 ### Generate Emulated Die Throws
 

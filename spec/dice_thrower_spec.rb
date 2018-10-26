@@ -2,11 +2,11 @@ require 'spec_helper'
 
 describe 'throw_dice' do
   it 'has a throw_dice method' do
-    expect { throw_dice }.not_to raise_error, "The `throw_dice` method was not found"
+    expect { throw_die }.not_to raise_error, "The `throw_dice` method was not found"
   end
 
   it 'it returns a number between 1 and 6' do
-    expect(throw_dice).to be_between(1,6), "The `throw_dice` should retunr a number between 1 and 6"
+    expect(throw_die).to be_between(1,6), "The `throw_dice` should retunr a number between 1 and 6"
   end
 end
 

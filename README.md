@@ -32,10 +32,14 @@ to an `Array`. This `Array` will be the return value of the method.
 
 ## Conclusion
 
-Now you've completed a basic Ruby program! This code will give you room to make
-modifications, and build out various new methods. When writing code, it's generally
-better to split big methods into lots of smaller ones. Here, we have a method the
-rolls the dice seperately from a method that keeps track of the results.
+Now you've completed a basic Ruby program! You've also seen a critical pattern
+in writing code: build a thing that does a single operation (roll a die) and
+combine that single-operation-thing into a complex-operation-thing (get five
+rolled dice).
+
+This means that if you have bug you'll only ever have to wonder: "Do I have
+a bug in generating a die-roll" **or** "Do I have a bug in accumulating multiple
+die-rolls." This approach makes for maintainable, readable, and good code.
 
 ## Resources
 

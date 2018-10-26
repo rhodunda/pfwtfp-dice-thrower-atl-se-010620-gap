@@ -13,7 +13,7 @@ to be writing this in a _procedural_ style. You shouldn't be thinking about
 
 Our focus should be practicing our skills in `Enumerable`s and `Array`s
 
-### Generate Emulated Die Throws
+### Generate Die Throws
 
 First, let's write a method called `throw_die` that returns a random integer
 between 1 and 6. In case you're unfamiliar, "Die" is the singular form of 

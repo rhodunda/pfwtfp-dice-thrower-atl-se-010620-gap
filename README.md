@@ -7,7 +7,7 @@
 
 ## Introduction
 
-In this lesson, we're going to build the beginning of a die game. We're going
+In this lesson, we're going to build the beginning of a dice game. We're going
 to be writing this in a _procedural_ style. You shouldn't be thinking about
 `class` definitions or any of that stuff. Just write methods.
 

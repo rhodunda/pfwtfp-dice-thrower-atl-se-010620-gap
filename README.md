@@ -1,4 +1,4 @@
-# Die Thrower
+# Dice Thrower
 
 ## Learning Goals
 

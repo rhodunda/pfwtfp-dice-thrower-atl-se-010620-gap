@@ -1,4 +1,4 @@
-# Dice Thrower
+# Basic Dice Thrower
 
 ## Learning Goals
 

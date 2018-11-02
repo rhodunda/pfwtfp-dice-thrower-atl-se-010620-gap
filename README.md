@@ -16,19 +16,19 @@ Our focus should be practicing our skills in `Enumerable`s and `Array`s
 ## Generate Die Throws
 
 First, let's write a method called `throw_die` that returns a random integer
-between 1 and 6. In case you're unfamiliar, "Die" is the singular form of 
-"dice." This will represent each side of a standard die. You might have heard
-of other die which have a different number of sides. We're going to ignore
-those for the moment.
+between 1 and 6. As a reminder, "Die" is the singular form of "dice." The
+return value from the `throw_die` method will be an integer representing the
+"pips" or "number of dots" on each side of a standard die.
 
-**Note:** Randomly generated integers start at 0. Make sure that your
-accommodates for this so that 0 is not a possible number that can be rolled.
+> You might have heard of other die which have a different number of sides.
+> We're going to ignore those for the moment.
 
 ## Generate an Array of Multiple Die Throws
 
 Next, let's write a method called `generate_set` that returns a set of die
-throws as an `Array`. Each time the die is thrown, it will store the result
-to an `Array`. This `Array` will be the return value of the method.
+throws as an `Array`. The method will be called and will be given a count of
+rolls to generate. The result of each of these rolls will be stored in an
+`Array` and returned.
 
 ## Conclusion
 

@@ -19,11 +19,4 @@ describe 'generate_set' do
     expect(generate_set(10)).to be_kind_of(Array), "The `generate_set` method did not return an array"
     expect(generate_set(10).length).to eq(10), "The `generate_set` method did not return an array of the correct length"
   end
-
-  it 'logs each result to an array' do
-    rolls = 10
-    set = [2, 3, 5, 1, 2, 4, 2, 1, 2, 4]
-    expect(set).to eq([2, 3, 5, 1, 2, 4, 2, 1, 2, 4])
-    expect(set.count).to eq(rolls)
-  end
 end

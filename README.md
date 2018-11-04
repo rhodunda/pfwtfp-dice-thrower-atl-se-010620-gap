@@ -45,4 +45,4 @@ die-rolls." This approach makes for maintainable, readable, and good code.
 
 - [Random]
 
-[random]: https://ruby-doc.org/core-2.2.0/Random.html
+[Random]: https://ruby-doc.org/core-2.2.0/Random.html
